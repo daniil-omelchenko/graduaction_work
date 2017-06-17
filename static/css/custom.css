@@ -1,0 +1,14 @@
+.header {
+    text-transform: none;
+    font-family: 'Helvetica Neue', 'Arial';
+    font-weight: 300;
+}
+
+.header > b {
+    font-weight: 500;
+}
+
+
+textarea.form-control {
+    height: 315px;
+}

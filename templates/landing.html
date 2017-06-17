@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Daniel">
+
+    <title>APP CLASSIFIER DEMO</title>
+
+    <link rel="shortcut icon" href="/static/favicon.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="/static/css/freelancer.css" rel="stylesheet">
+    <link href="/static/css/custom.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand header" href="#page-top">ДЕМОНСТРАЦІЯ</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#features">Огляд</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">Автор</a>
+                    </li>
+                    <li id="action_button" class="page-scroll">
+                        <a href="#sign-up">Спробувати</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-text">
+                        <span class="name">КАТЕГОРИЗАЦІЯ МОБІЛЬНИХ ДОДАТКІВ З ВИКОРИСТАННЯМ ЗАСОБІВ ОБРОБКИ ПРИРОДНОЇ МОВИ</span>
+                        <span class="skills">дипломна робота</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Огляд</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <p align="justify">
+                        Є система яка підбирає найбільш оптимальну рекламу для показу користувачеві.
+                        Для того, щоб це зробити, необхідно поділити користувачів на групи із використанням
+                        деякого списку ознак (напр. вік, стать, та ін.) Покращити якість такого розподілення
+                        на групи можна доданням ще однієї ознаки. Такою ознакою може бути “найулюбленіший”
+                        додаток (той, яким користуються найчастіше). Але назва це якісна ознака і не підходить
+                        для алгоритмів кластеризації бо має дуже велику кількість допустимих значень.
+                        Для зменшення цієї кількості потрібно кожній назві додатку поставити у відповідність
+                        меншу кількість класів.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Автор</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p><b>Виконав</b></p>
+                    <p>студент 4-го курсу ДНУ</p>
+                    <p>группи ПЗ-13-1</p>
+                    <p>Омельченко Данило Володимирович</p>
+                    <p>спеціальність: Программна інженерія</p>
+                </div>
+                <div class="col-lg-4">
+                    <p><b>Керівник</b></p>
+                    <p>кандидат фізико-математичних наук, доцент</p>
+                    <p>Кузнезов Константин Анатолійович</p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="page-scroll">
+                         <a href="#sign-up" class="btn btn-lg btn-outline">
+                        <i class="fa fa-rocket"></i> Спробувати
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="sign-up">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Спробувати</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+                    <form id="demo_form">
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Cписок додатків</label>
+                                <textarea
+                                        id="apps"
+                                        name="apps"
+                                        class="form-control"
+                                        required
+                                        placeholder="Введіть декілька імен додатків. По одному на кожен рядок."
+                                        data-validation-required-message="Будьласка вкажіть хочаб ім'я одного додатка."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="success"></div>
+                        <div class="row">
+                            <div class="form-group col-xs-12">
+                                <button type="submit" class="btn btn-success btn-lg">Класифікувати</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div id="result_header" class="row" hidden>
+                <div class="col-lg-12 text-center">
+                    <h2>Результати</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+
+            <div id="result" class="row" hidden>
+                <div class="col-lg-8 col-lg-offset-2">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Ім'я</th>
+                                <th>Клас</th>
+                            </tr>
+                        </thead>
+                        <tbody id="result_container">
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Адреса</h3>
+                        <p>Дніпро Україна</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Контакти</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://ua.linkedin.com/in/daniel-omelchenko-87876ba6" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Автор</h3>
+                        <p>Омельченко Данило, студент <a href="http://dnu.dp.ua/">ДНУ</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        &copy; Омельченко Данило 2017
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery -->
+    <script src="/static/js/jquery-3.1.1.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/static/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="/static/js/freelancer.min.js"></script>
+
+    <script>
+        $("#demo_form").submit(function( event ) {
+            var apps = $("#apps")[0].value;
+
+            $.ajax("/classify", {
+                data : JSON.stringify({apps: apps.split('\n')}),
+                contentType : 'application/json',
+                type : 'POST',
+                success: function(data) {
+                    render_apps(data.apps);
+                }}
+            );
+            event.preventDefault();
+        });
+
+        function render_apps(apps) {
+            $('#result_header').show();
+            $('#result').show();
+            $('#result_container').empty();
+            for (var i = 0; i < apps.length; i++) {
+                render_app(apps[i]);
+            }
+        }
+        function render_app(app) {
+            var row = `<tr><td><img width="32px" src="${app.artwork}"></td><td>${app.name}</td><td>${app.genre}</td></tr>`;
+            $('#result_container').append(row);
+            console.log(app);
+        }
+    </script>
+</body>
+
+</html>

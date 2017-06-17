@@ -1,0 +1,11 @@
+requests
+requests[security]
+beautifulsoup4
+pandas
+gensim
+scikit-learn
+nltk
+scipy
+numpy
+flask
+gunicorn
