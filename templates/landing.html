@@ -221,11 +221,24 @@
                             <li>
                                 <a href="https://ua.linkedin.com/in/daniel-omelchenko-87876ba6" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
                             </li>
+                            <li>
+                                <a href="https://www.facebook.com/dpixelstudio" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/daniil-omelchenko" class="btn-social btn-outline"><i class="fa fa-fw fa-github-alt"></i></a>
+                            </li>
+                            <li>
+                                <a href="mailto:dpixelstudio@gmail.com" class="btn-social btn-outline"><i class="fa fa-fw fa-envelope"></i></a>
+                            </li>
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>Автор</h3>
-                        <p>Омельченко Данило, студент <a href="http://dnu.dp.ua/">ДНУ</a></p>
+                        <h3>Репозиторій програми</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://github.com/daniil-omelchenko/graduaction_work" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -262,6 +275,7 @@
                 type : 'POST',
                 success: function(data) {
                     render_apps(data.apps);
+                    $("html, body").stop().animate({scrollTop:$('#result_header').offset().top-100},1250,"easeInOutExpo");
                 }}
             );
             event.preventDefault();
@@ -280,6 +294,8 @@
             $('#result_container').append(row);
             console.log(app);
         }
+
+
     </script>
 </body>
 
