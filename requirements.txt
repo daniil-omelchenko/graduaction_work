@@ -9,3 +9,4 @@ scipy
 numpy
 flask
 gunicorn
+lxml

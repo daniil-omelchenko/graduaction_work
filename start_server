@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cd /www/demo && source venv/bin/activate && gunicorn main:app -b localhost:8000
+cd /www/demo && source venv/bin/activate && gunicorn main:app -b localhost:8000 --capture-output --error-logfile /www/logs/demo-err.log
